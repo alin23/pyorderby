@@ -1,0 +1,17 @@
+[metadata]
+name = 'pyorderby'
+version = '1.0.0'
+description = 'SQL-like orderby syntax for Python lists and tuples'
+author = 'Alin Panaitiu'
+author_email = 'alin.p32@gmail.com'
+license = 'MIT'
+url = 'https://github.com/alin23/pyorderby'
+
+[requires]
+python_version = ['3.5', '3.6', 'pypy', 'pypy3']
+
+[build-system]
+requires = ['setuptools', 'wheel']
+
+[tool.hatch.commands]
+prerelease = 'hatch build'
